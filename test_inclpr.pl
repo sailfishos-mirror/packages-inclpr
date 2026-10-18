@@ -1,7 +1,6 @@
 :- module(test_inclpr,
 	  [ test_inclpr/0
 	  ]).
-%:- asserta(user:file_search_path(library, '.')).
 :- use_module(library(inclpr),
 	[
 	    {}/1,
